@@ -28,7 +28,7 @@ body{
     margin-top: 2rem;
     border: none;
     font-size: inherit;
-    border-radius: 8px;
+    border-radius: 3px;
     color: rgb(241, 12, 12);
     border-bottom: 2px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 10px rgba(37, 23, 23, 0.733);
