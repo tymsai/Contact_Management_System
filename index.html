@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +8,21 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js"></script>
 </head>
-
 <body>
     <center>
         <div class="top">
-            <p class="heading">Welcome To</p>
-            <p class="title">Contact Management System</p>
+            <div class="mainflex">
+                <!-- 
+                    <p class="heading">Welcome To</p>
+                -->
+                <p class="title">Contact Management System</p>
+            </div>
+            <img class="cimg" src="./contact.png" alt="">
         </div>
     </center>
     <div class="divider_div">
         <div class="user_field">
-            <form onsubmit="event.preventDefault();user_data()" action="">
+            <form onsubmit="event.preventDefault();user_data()" autocomplete="off">
                 <br>
                 <input class="input" id="username" type="text" placeholder="Name">
                 <br>
@@ -57,5 +60,4 @@
         </div>
     </div>
 </body>
-
 </html>
