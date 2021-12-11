@@ -126,6 +126,7 @@ overflow: hidden;
     box-shadow: 5px 5px 10px rgba(37, 23, 23, 0.733);
 }
 .btn:hover{
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: rgba(48, 17, 202, 0.671);
     box-shadow: 5px 5px 5px rgba(37, 23, 23, 0.733);
 }
