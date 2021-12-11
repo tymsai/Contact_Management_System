@@ -53,10 +53,10 @@ th{
     background-color: rgba(60, 84, 136, 0.212);
     display: flex;
     padding-bottom: 43px;
-}/*
+}
 body{
-    background-color: rgba(60, 84, 136, 0.212);
-}*/
+overflow: hidden;
+}
 .heading{
     color: rgba(58, 40, 87, 0.76);
     font-size: 3.0rem;
