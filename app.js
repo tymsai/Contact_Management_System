@@ -51,8 +51,9 @@ function insertNewRecord(new_entry) {
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = new_entry.email;
     cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a class="edits" onClick="onEdit(this)">Edit</a>
-                       <a class="edits" onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<a class="edits" onClick="onEdit(this)"><img class="pen" src="./edit.png"></a>
+                       <a class="edits" onClick="onDelete(this)"><img class="pen" src="./delete.png">
+                       </a>`;
 }
 
 /* ---- Gets the input from user ---- */
