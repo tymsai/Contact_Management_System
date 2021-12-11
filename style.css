@@ -7,25 +7,25 @@
 
 /*---db styles---*/
 tr:nth-child(even),table.list>tr {
-    background-color: #9e8fd43d;
+    background-color: #b5b0c0cc;
 }
 .edits{
     margin-left: 10px;
-    background-color: rgba(200, 151, 245, 0.37);
-    padding: 5px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 .edits:hover{
     cursor: pointer;
-    background-color: rgba(48, 17, 202, 0.425);
+    background-color: rgb(7, 7, 7);
 }
 tbody{
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 .thead{
     padding: 20px 20px 10px 20px;
-    color: rgba(80, 82, 177, 0.89);
+    color: rgba(0, 0, 0, 0.89);
     margin: 00px 40px 00px 40px;
     font-weight: 400;
     font-size: 22px;
@@ -39,37 +39,39 @@ th{
     border-radius: 8px;
 }
 
-/*---db styles---*/
+/*---db styles end---*/
 .user_field{
-    background-color: white;
-    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.822);
+    margin: 30px 0px 0px 10px;
     padding-left: 3rem;
     padding-right: 40px;
-    border-radius: 0px 20px 20px 00px;
+    border-radius: 20px 20px 20px 20px;
     padding-bottom: 25px;
-    box-shadow: 10px 10px 10px rgba(64, 74, 107, 0.678);
+    box-shadow: 10px 10px 10px rgba(41, 40, 49, 0.712);
 }
 .divider_div{
-    background-color: rgba(60, 84, 136, 0.212);
+    background-color: rgb(86, 104, 155);
     display: flex;
-    padding-bottom: 43px;
-}
-body{
-overflow: hidden;
+    padding-bottom: 50%;
 }
 .heading{
-    color: rgba(58, 40, 87, 0.76);
-    font-size: 3.0rem;
+    color: rgba(229, 221, 243, 0.849);
+    font-size: 2.5rem;
     font-weight: 350;
-}
-.title{
-    color: rgba(37, 46, 59, 0.74);
-    font-size: 3.5rem;
-    font-weight: 350;
-    box-shadow: 1px 15px 10px rgba(64, 74, 107, 0.185);
+    text-decoration: underline;
 }
 .top{
-    background-color:  rgba(95, 113, 172, 0.418);
+    background-color: rgba(108, 133, 202, 0.918);
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-weight: 350;
+    box-shadow: 1px 15px 10px rgba(252, 252, 252, 0.678);
+}
+body{
+    overflow-y: hidden;
+    background-color: rgba(86, 75, 139, 0);
 }
 .input{
     outline: none;
@@ -89,7 +91,7 @@ overflow: hidden;
 }
 ::placeholder{
     padding-left: 10px;
-    color: rgba(35, 29, 63, 0.671);
+    color: rgba(57, 54, 71, 0.671);
 }
 .btn{
     margin-top: 1rem;
@@ -104,29 +106,5 @@ overflow: hidden;
 .btn:hover{
     background-color: rgba(48, 17, 202, 0.671);
     color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 5px rgba(37, 23, 23, 0.733);
-}
-.input:focus{
-    border-bottom: 2px solid black;
-    background-color: rgb(255, 255, 255);
-}
-::placeholder{
-    padding-left: 10px;
-    color: rgb(35, 29, 63);
-}
-.btn{
-    margin-top: 1rem;
-    margin-left: 4rem;
-    border-radius: 15px;
-    border: none;
-    padding: 1.4rem;
-    font-size: 25px;
-    color: rgba(48, 17, 202, 0.671);
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: 5px 5px 10px rgba(37, 23, 23, 0.733);
-}
-.btn:hover{
-    color: white;
-    background-color: rgba(48, 17, 202, 0.671);
     box-shadow: 5px 5px 5px rgba(37, 23, 23, 0.733);
 }
